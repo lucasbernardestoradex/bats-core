@@ -11,6 +11,10 @@ The format is based on [Keep a Changelog][kac] and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+* junit: XML escape fully removes ANSI sequences, e.g. color codes, cursor movements (#1103)
+
 ### Documentation
 
 * moved 3rd-party libraries list into wiki (#1078)
